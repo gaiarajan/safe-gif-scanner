@@ -3,11 +3,11 @@ import cv2
 import numpy
 from PIL import Image, ImageSequence
 
+#checks whether a gif contains flashing or high saturation frames
 def process_gif(gif_path):
-    """check whether a gif contains flashing or high saturation frames"""
 
+    #exacts staturation and luminace from a frame
     def process_frame(frame):
-        """extract saturation and luminance information from a frame"""
         dst = frame.convert("RGB")
         avg_color_per_row = numpy.average(dst, axis=0)
         avg_color = numpy.average(avg_color_per_row, axis=0)
@@ -17,13 +17,13 @@ def process_gif(gif_path):
         relLuminance = 0.2126*avg_color[0] + 0.7152*avg_color[1] + 0.0722*avg_color[2]
         
         return distance, relLuminance
-
+    
+    # determines if more than the 'theshold' of frames are saturated
     def check_saturation(saturated_count, unsaturated_count, threshold=0.25):
-        """determine if more than `threshold` of frames are saturated"""
         return saturated_count/(saturated_count + unsaturated_count) >= threshold
-
+    
+    #checks is more than 'theshold' of frames contains flashing
     def check_flashing(luminance_list, total_frames, threshold=0.25):
-        """check if more than `threshold` of frames contain flashing"""
 
         luminanceChanges = [luminance_list[i+1]-luminance_list[i] for i in range(len(luminance_list)-1)]
         avgLuminanceChange = sum(luminanceChanges) / len(luminanceChanges)
