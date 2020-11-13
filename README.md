@@ -25,3 +25,6 @@ These are the main milestones for the project! As development continues, I'll ad
 This library is a lightweight library for analyzing GIFs in real-time for fast flashes that may trigger a seizure for people with photosensitive epilepsy. I envision this as a component of larger projects, and I will be creating a different library for grabbing Twitter GIFs in the future, to create a complete product. 
 
 Credits to [this amazing README checklist](https://github.com/ddbeck/readme-checklist) for the structure of this document. 
+
+## Note on Testing
+There's no publicly available databases for GIFs that have the potential to trigger seizures. Thus, I created a "corruption" algorithm that introduces deep red frames and flashing into GIFs in order to test the detection capabilities of this library. For ethics reasons, I won't release it publicly; releasing it could allow bad actors to corrupt GIFs for coordinated attacks. If you'd like to see it for testing purposes, feel free to open an issue or DM me on Twitter @gaia_writes and we can chat!
