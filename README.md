@@ -9,8 +9,10 @@ SafeGIF will allow people with photosensitive epilepsy to get assurance of the s
 This library is a lightweight library for analyzing GIFs in real-time for fast flashes that may trigger a seizure for people with photosensitive epilepsy. I envision this as a component of larger projects, and I will be creating a different library for grabbing Twitter GIFs in the future, to create a complete product. 
 
 ## Why SafeGIF?
-Install SafeGIF using [pip](https://pip.pypa.io/en/stable/): <br> 
-`pip install SafeGIF`<br><br>
+Install SafeGIF using [pip](https://pip.pypa.io/en/stable/):
+```
+pip install SafeGIF
+```
 This library doesn't have any dependencies. 
 
 ## Contributions
