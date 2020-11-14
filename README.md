@@ -9,8 +9,8 @@ SafeGIF will allow people with photosensitive epilepsy to get assurance of the s
 This library is a lightweight library for analyzing GIFs in real-time for fast flashes that may trigger a seizure for people with photosensitive epilepsy. I envision this as a component of larger projects, and I will be creating a different library for grabbing Twitter GIFs in the future, to create a complete product. 
 
 ## Why SafeGIF?
-Install SafeGIF using [pip](https://pip.pypa.io/en/stable/):
-`pip install SafeGIF`
+Install SafeGIF using [pip](https://pip.pypa.io/en/stable/): <br> 
+`pip install SafeGIF`<br><br>
 This library doesn't have any dependencies. 
 
 ## Contributions
@@ -18,13 +18,6 @@ Please feel free to contribute by submitting a pull request or adding an issue! 
 - add suggestions for future features or papers I could read to fix this algorithm
 - improve this README 
 - add comments and documentation to code
-
-## Action Items
-These are the main milestones for the project! As development continues, I'll add issues and tag them for easier contribution. 
-- isolate GIFs by frame
-- read papers and ascertain what exactly makes a GIF dangerous on a frame-by-frame level
-- translate these papers to code
-- optimize algorithm to evaluate GIFs in real-time
 
 ## Note on Testing
 There's no publicly available databases for GIFs that have the potential to trigger seizures. Thus, I created a "corruption" algorithm that introduces deep red frames and flashing into GIFs in order to test the detection capabilities of this library. For ethics reasons, I won't release it publicly; releasing it could allow bad actors to corrupt GIFs for coordinated attacks. If you'd like to see it for testing purposes, feel free to open an issue or DM me on Twitter @gaia_writes and we can chat!
