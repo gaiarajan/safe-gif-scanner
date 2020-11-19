@@ -16,10 +16,7 @@ pip install SafeGIF
 This library doesn't have any dependencies. 
 
 ## Contributions
-Please feel free to contribute by submitting a pull request or adding an issue! Here are some quick entry points:
-- add suggestions for future features or papers I could read to fix this algorithm
-- improve this README 
-- add comments and documentation to code
+If you'd like to contribute to this repository, thank you so much! Check out the [issues](https://github.com/grajan22/safe-gif-scanner/issues) for good entry points. You can also find the code of conduct for this repository [here](https://github.com/grajan22/safe-gif-scanner/blob/main/CONDUCT.md). 
 
 ## Note on Testing
 There's no publicly available databases for GIFs that have the potential to trigger seizures. Thus, I created a "corruption" algorithm that introduces deep red frames and flashing into GIFs in order to test the detection capabilities of this library. For ethics reasons, I won't release it publicly; releasing it could allow bad actors to corrupt GIFs for coordinated attacks. If you'd like to see it for testing purposes, feel free to open an issue or DM me on Twitter @gaia_writes and we can chat!
