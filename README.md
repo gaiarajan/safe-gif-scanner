@@ -26,3 +26,6 @@ There's no publicly available databases for GIFs that have the potential to trig
 
 Credits to [this amazing README checklist](https://github.com/ddbeck/readme-checklist) for the structure of this document. 
 
+## License
+This repository uses the MIT License, which allows commercial and private use and distribution with or without modification. I am not liable for any consequences of use, modification, or sale of this software.
+
