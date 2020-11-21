@@ -15,4 +15,12 @@ References:
 1. [Guide to Accessible Web Design & Development](https://www.section508.gov/content/guide-accessible-web-design-development#flashing)
 2. [Shedding Light on Photosensitivity, One of Epilepsy's Most Complex Conditions](https://www.epilepsy.com/article/2014/3/shedding-light-photosensitivity-one-epilepsys-most-complex-conditions-0)
 
+### Additional possible research sources:
 
+1. https://www.epilepsy.org.uk/info/photosensitive-epilepsy
+
+2. https://developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders
+
+3. https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html
+
+4. https://trace.umd.edu/peat
